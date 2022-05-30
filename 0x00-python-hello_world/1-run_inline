@@ -1,2 +1,2 @@
 #!/bin/bash
-print(f"Best school: {88+10}") -c $PYCODE
+print(f"Best school: {88+10}") -c "$PYCODE"
