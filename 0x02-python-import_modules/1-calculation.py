@@ -1,3 +1,15 @@
 #!/usr/bin/python3
 
-def __import__ =' __main__'
+if __name__ == "__main__":
+    """
+    MIKES addition function
+    """
+    from calculator_1 import add, sub, mul, div
+
+    a = 10
+    b = 5
+
+    print("{} + {} = {}".format(a, b, add(a, b)))
+    print("{} - {} = {}".format(a, b, sub(a, b)))
+    print("{} * {} = {}".format(a, b, mul(a, b)))
+    print("{} / {} = {}".format(a, b, div(a, b)))
