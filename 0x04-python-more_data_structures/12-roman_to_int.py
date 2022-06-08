@@ -11,4 +11,3 @@ def roman_to_int(roman_string):
         else:
             roman_n += roman_d[roman_string[j]]
     return roman_n
-© 2022 GitHub, Inc.
