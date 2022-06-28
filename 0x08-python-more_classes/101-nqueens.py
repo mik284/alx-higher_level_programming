@@ -1,5 +1,7 @@
 # Python3 program to solve N Queen
 # Problem using backtracking
+import sys
+
 global N
 N = 4
 
@@ -88,5 +90,3 @@ def solveNQ():
 
 # Driver Code
 solveNQ()
-
-# This code is contributed by Divyanshu Mehta
