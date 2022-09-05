@@ -1,13 +1,6 @@
 #!/usr/bin/node
-
-//Write a script that prints the first argument passed to it:
-
-function testR(Args) {
-
-    if (Args == "") {
-        console.log("No argument");
-    } else {
-        console.log(Args);
-    }
-
+if (process.argv[2] === undefined) {
+  console.log('No argument');
+} else {
+  console.log(process.argv[2]);
 }
