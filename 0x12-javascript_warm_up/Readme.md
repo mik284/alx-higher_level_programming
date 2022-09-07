@@ -1,1 +1,0 @@
-# This repo is a warmup in JavaScript
